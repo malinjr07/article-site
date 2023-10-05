@@ -18,7 +18,6 @@
     @apply align-middle;
   }
   body {
-    @apply bg-white;
+    @apply font-noto-sans bg-white;
   }
 }
-

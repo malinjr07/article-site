@@ -1,18 +1,21 @@
-import type { Config } from 'tailwindcss';
+import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     container: {
       center: true,
     },
     extend: {
       screens: {
-        '3xl': '1760px',
+        xl: "1300px",
+        "2xl": "1300px",
+      },
+      fontFamily: {
+        "noto-sans": ["var(--font-noto-sans)"],
       },
     },
   },
   plugins: [],
 };
 export default config;
-
