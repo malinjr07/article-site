@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply m-0 p-0 outline-none;
+    @apply m-0 p-0 font-normal outline-none;
   }
   ul,
   li,
@@ -18,6 +18,6 @@
     @apply align-middle;
   }
   body {
-    @apply font-noto-sans bg-white;
+    @apply bg-white font-noto-sans;
   }
 }

@@ -5,6 +5,13 @@ const config: Config = {
   theme: {
     container: {
       center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "0px",
+        "2xl": "0px",
+      },
     },
     extend: {
       screens: {
