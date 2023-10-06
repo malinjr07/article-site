@@ -5,9 +5,12 @@ export type navType = {
 
 export type sectionTitleProps = {
   blockedText: string;
-  freeText: string;
+  freeText?: string;
 };
 export type tagsProps = {
   title: string;
   queryParams: string;
+};
+export type articleCardOneProps = {
+  reverted?: boolean;
 };

@@ -1,14 +1,21 @@
 import React, { FC } from "react";
 import TextArticleCard from "./TextArticleCard";
 import Link from "next/link";
+import { articleCardOneProps } from "@/utils/types";
 
-const ArticleCardOne: FC = () => {
+const ArticleCardOne: FC<articleCardOneProps> = ({ reverted }) => {
   return (
     <Link
       href="/"
-      className="group mx-auto flex w-[98%] flex-col-reverse flex-wrap items-center justify-between xl:m-0 xl:flex-row "
+      className={`group mx-auto flex w-[98%] flex-col-reverse flex-wrap items-center justify-between xl:m-0 ${
+        reverted ? "xl:flex-row-reverse" : "xl:flex-row"
+      }`}
     >
-      <span className=" w-full pb-10 xl:w-[54%] xl:pb-0 xl:pr-7 ">
+      <span
+        className={` w-full pb-10 xl:w-[54%] xl:pb-0 ${
+          reverted ? "xl:pl-7" : " xl:pr-7"
+        } `}
+      >
         <TextArticleCard />
       </span>
       <span className="relative mb-4 aspect-video w-full xl:m-0 xl:aspect-[371/348] xl:w-[46%] ">
