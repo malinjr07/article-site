@@ -5,7 +5,10 @@ import Link from "next/link";
 
 const MiniTextArticleCard: FC = () => {
   return (
-    <Link href="/" className="flex w-full flex-col items-start justify-start  ">
+    <Link
+      href="/blog/15224"
+      className="flex w-full flex-col items-start justify-start  "
+    >
       <Tags title="travel" queryParams="travel" />
       <h4 className="my-2 text-[17px] font-medium leading-[140%] text-[#222222] ">
         I Created a Developer Rap Video - Here&apos;s What I Learned from it.

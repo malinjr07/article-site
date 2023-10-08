@@ -1,15 +1,14 @@
 import Banner from "@/components/Banner";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import RecentlyPosted from "@/components/RecentlyPosted";
+import { NextPage } from "next";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
-      <Header />
       <Banner />
       <RecentlyPosted />
-      <Footer />
     </>
   );
-}
+};
+
+export default Home;

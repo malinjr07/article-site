@@ -6,7 +6,7 @@ import { articleCardOneProps } from "@/utils/types";
 const ArticleCardOne: FC<articleCardOneProps> = ({ reverted }) => {
   return (
     <Link
-      href="/"
+      href="/blog/15224"
       className={`group mx-auto flex w-[98%] flex-col-reverse flex-wrap items-center justify-between xl:m-0 ${
         reverted ? "xl:flex-row-reverse" : "xl:flex-row"
       }`}

@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import "@/styles/all.min.css";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
@@ -21,7 +23,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.variable}>{children}</body>
+      <body className={inter.variable}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

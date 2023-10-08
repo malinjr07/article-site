@@ -73,13 +73,13 @@ const Footer: FC = () => {
             </Link>
           </div>
         </div>
-      </div>{" "}
-      <p className="border-t border-[#D1E7E5] py-6 text-center text-xs ">
+      </div>
+      {/* <p className="border-t border-[#D1E7E5] py-6 text-center text-xs ">
         Designed &amp; Developed By{" "}
         <a target="_blank" href="https://devfirmltd.com">
           Devfirm
         </a>
-      </p>
+      </p> */}
     </footer>
   );
 };
