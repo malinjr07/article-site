@@ -14,3 +14,4 @@ export type tagsProps = {
 export type articleCardOneProps = {
   reverted?: boolean;
 };
+export type outlineTagProps = { content: string };

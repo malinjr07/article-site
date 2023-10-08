@@ -6,7 +6,7 @@ const TextArticleCard: FC = () => {
   return (
     <span className="flex w-full flex-col items-start justify-start  ">
       <Tags title="travel" queryParams="travel" />
-      <h4 className="my-2 text-[27px] font-medium leading-[140%] text-[#222222] ">
+      <h4 className="my-2 text-lg font-medium leading-[140%] text-[#222222] lg:text-[27px] ">
         I Created a Developer Rap Video - Here&apos;s What I Learned from it.
         Check it out
       </h4>

@@ -12,9 +12,7 @@ const ArticleCardOne: FC<articleCardOneProps> = ({ reverted }) => {
       }`}
     >
       <span
-        className={` w-full pb-10 xl:w-[54%] xl:pb-0 ${
-          reverted ? "xl:pl-7" : " xl:pr-7"
-        } `}
+        className={` w-full xl:w-[54%] ${reverted ? "xl:pl-7" : " xl:pr-7"} `}
       >
         <TextArticleCard />
       </span>

@@ -4,7 +4,7 @@ import React, { FC } from "react";
 
 const Header: FC = () => {
   return (
-    <nav className="sticky inset-x-0 top-0 z-50 bg-[#E8F3F3] px-2 ">
+    <nav className="sticky inset-x-0 top-0 z-50 bg-[#E8F3F3] px-2 py-2 lg:py-0 ">
       <div className="container hidden flex-row-reverse flex-wrap items-center justify-between lg:flex  ">
         <Link href="/" className="text-xl uppercase leading-6 text-[#333333]">
           Logo
@@ -23,7 +23,7 @@ const Header: FC = () => {
       </div>
       <button
         type="button"
-        className=" my-4 block rounded-lg border border-[#00AAA1]/40 px-3 py-2 lg:hidden "
+        className=" block rounded-lg border border-[#00AAA1]/40 px-3 py-2 lg:hidden "
       >
         <i className=" fa-solid fa-bars text-xl text-[#00AAA1]"></i>
       </button>
